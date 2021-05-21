@@ -1,0 +1,9 @@
+<doctype html="">
+<title>Delete an entry</title>
+<h2>Driver details will be deleted based on the driver ID provided </h2>
+<form action = "" method="post">
+{{ id_form.hidden_tag() }}
+    <p>DriverId : {{ (id_form.driverId) }}</p>
+    <p><input type="submit" value="Submit"></input></p>
+</form>
+</doctype>
