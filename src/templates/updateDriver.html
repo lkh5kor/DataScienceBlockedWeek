@@ -1,0 +1,16 @@
+<doctype html="">
+<title>New Driver Entry</title>
+<h2>New Driver</h2>
+<form action = "" method="post">
+{{ driver_form.hidden_tag() }}
+    <p>DriverRef : {{ (driver_form.driverRef) }}</p>
+    <p>Number : {{ (driver_form.number) }}</p>
+    <p>Code : {{ (driver_form.code) }}</p>
+    <p>Forename : {{ (driver_form.forename) }}</p>
+    <p>Surname : {{ (driver_form.surname) }}</p>
+	<p>DOB : {{ (driver_form.dob) }}</p>
+	<p>Nationality : {{ (driver_form.nationality) }}</p>
+	<p>URL : {{ (driver_form.url) }}</p>
+    <p><input type="submit" value="Submit"></input></p>
+</form>
+</doctype>
